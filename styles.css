@@ -74,9 +74,13 @@ body {
   border: 0px solid white;
   background-color: white;
   border-radius: 7px;
-  text-align: center;
-
+  font-size: 15px;
   padding: 20px;
+}
+
+.profile_header {
+  display: flex;
+  align-items: center;
 }
 
 .bookmark {
@@ -98,7 +102,7 @@ span {
   padding: 0;
   list-style: none;
   display: flex;
-  flex-direction: space-between;
+  flex-wrap: wrap;
   justify-content: left;
   gap: 10px;
   font-size: 15px;
@@ -110,18 +114,56 @@ span {
   border-radius: 7px;
 }
 
+.counter {
+}
+
+.counter_icon {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 20px;
+  border: 0px solid white;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  padding: 20px;
+}
+
+.counter_list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.counter_list > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.counter_list img {
+  height: 30px;
+}
+
 footer img {
   width: 70px;
   height: auto;
   margin: 10px;
 }
 
-.nav_hover {
+.nav_hover.active {
   background-color: aqua;
 }
 
-.nav_hover1 {
-  background-color: white;
+.nav_hover:hover {
+  background-color: aquamarine;
 }
 
 .footer_links {
