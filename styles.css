@@ -11,14 +11,37 @@ body {
 
 header {
   text-align: center;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   background-color: aqua;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 1;
 }
 
 .question {
@@ -27,10 +50,45 @@ body {
 .question-card {
   display: flex;
   flex-direction: column;
-  margin: 10%;
+  margin: 20px;
   border: 0px solid white;
   background-color: white;
+  border-radius: 7px;
+  text-align: center;
+
   padding: 20px;
+}
+
+.bookmark {
+  position: relative;
+  top: -10px;
+  right: -435px;
+  width: 50px;
+  height: auto;
+  margin: 0px;
+}
+
+span {
+  margin: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tags {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: space-between;
+  justify-content: left;
+  gap: 10px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.tags > li {
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 7px;
 }
 
 footer img {
