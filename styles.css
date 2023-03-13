@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0%;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.question {
+}
+
+.question-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  border: 0px solid white;
+  background-color: white;
+  padding: 20px;
+}
+
+footer img {
+  width: 70px;
+  height: auto;
+  margin: 10px;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: white;
+}
