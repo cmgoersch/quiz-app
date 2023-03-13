@@ -18,10 +18,16 @@ header {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   background-color: aqua;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+}
+
+.img {
+  width: 40vw;
+  height: auto;
+  border-radius: 400px;
 }
 
 .button {
@@ -49,6 +55,20 @@ body {
 
 .question-card {
   display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 20px;
+  border: 0px solid white;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  position: relative;
   flex-direction: column;
   margin: 20px;
   border: 0px solid white;
@@ -60,9 +80,9 @@ body {
 }
 
 .bookmark {
-  position: relative;
-  top: -10px;
-  right: -435px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   width: 50px;
   height: auto;
   margin: 0px;
@@ -82,7 +102,6 @@ span {
   justify-content: left;
   gap: 10px;
   font-size: 15px;
-  font-style: bold;
 }
 
 .tags > li {
@@ -95,6 +114,14 @@ footer img {
   width: 70px;
   height: auto;
   margin: 10px;
+}
+
+.nav_hover {
+  background-color: aqua;
+}
+
+.nav_hover1 {
+  background-color: white;
 }
 
 .footer_links {
