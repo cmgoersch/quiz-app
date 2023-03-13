@@ -25,9 +25,9 @@ body {
 }
 
 .img {
-  width: 40vw;
+  width: 50vw;
   height: auto;
-  border-radius: 400px;
+  border-radius: 200px;
 }
 
 .button {
