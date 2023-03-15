@@ -1,0 +1,19 @@
+.tags {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.tags > li {
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+tags.css * {
+  box-sizing: border-box;
+}
