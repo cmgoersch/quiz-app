@@ -1,0 +1,37 @@
+.counter {
+}
+
+.counter_icon {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 20px;
+  border: 0px solid white;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  padding: 20px;
+}
+
+.counter_list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.counter_list > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.counter_list img {
+  height: 30px;
+}

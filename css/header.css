@@ -1,0 +1,10 @@
+header {
+  text-align: center;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.profile_header {
+  display: flex;
+  align-items: center;
+}
