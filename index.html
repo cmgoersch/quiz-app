@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css" />
-    <script src=".JS//index.js" defer></script>
+    <script src="/JS/index.js" defer></script>
   </head>
   <body>
     <header>
@@ -14,8 +14,8 @@
     </header>
 
     <section class="question-card">
-      <button class="bookmark">
-        <img src="icons/bookmark_w.svg" />
+      <button class="bookmark" data-js="bookmark">
+        <img data-js="bookmark-icon" src="icons/bookmark_w.svg" />
       </button>
       <span> what property flips the axes in flexbox </span>
       <button class="button" href="">Show Answer</button>
@@ -28,7 +28,11 @@
 
     <section class="question-card">
       <button class="bookmark">
-        <img src="icons/bookmark_s.svg" />
+        <img
+          data-js="bookmark-active"
+          class="bookmark-active"
+          src="icons/bookmark_s.svg"
+        />
       </button>
       <span> what property flips the axes in flexbox </span>
       <button class="button" href="">Show Answer</button>
@@ -46,6 +50,9 @@
       </a>
       <a class="nav_hover" href="bookmarks.html">
         <img src="icons/bookmark_w.svg" />
+      </a>
+      <a class="nav_hover" href="new_cards.html">
+        <img src="icons/plus.svg" />
       </a>
       <a class="nav_hover" href="about_me.html">
         <img src="icons/user.svg" />
