@@ -1,0 +1,23 @@
+
+.bookmark {
+    all: unset;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .bookmark img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .bookmark:hover {
+    opacity: 1;
+  }
+  
+.bookmark--saved {
+    filter: invert(81%) sepia(91%) saturate(554%) hue-rotate(234deg)
+      brightness(88%) contrast(90%);

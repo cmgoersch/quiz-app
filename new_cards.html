@@ -6,12 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css" />
-    <script src=".JS//index.js" defer></script>
+    <script src="/JS/index.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Add new card</h1>
     </header>
+
+    <form class="form-body" data-js="form" autocomplete="off">
+      <label class="form-body" for="title">Title:</label>
+      <input
+        class="form__field"
+        id="title"
+        name="title"
+        type="text"
+        required
+        data-js="title-input"
+      />
+
+      <label class="form__label" for="email">Email:</label>
+      <input
+        class="form__field"
+        id="email"
+        name="email"
+        type="email"
+        required
+      />
+
+      <label class="form__label" for="password">Password:</label>
+      <input
+        class="form__field form__field--password"
+        id="password"
+        name="password"
+        type="text"
+        aria-describedby="password-hint-info"
+        required
+        minlength="8"
+        data-js="password-input"
+      />
+    </form>
 
     <section class="question-card">
       <button class="bookmark">
