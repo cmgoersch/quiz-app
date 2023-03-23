@@ -13,49 +13,49 @@
       <h1>Add new card</h1>
     </header>
 
-    <form class="form-body" data-js="form" autocomplete="off">
-      <label class="form-body" for="title">Title:</label>
-      <input
-        class="form__field"
-        id="title"
-        name="title"
-        type="text"
+    <form class="form" data-js="form" autocomplete="off">
+      <label class="form__field" for="question">Your question:</label>
+      <textarea
+        name="question"
+        id="question"
         required
-        data-js="title-input"
-      />
+        minlength="2"
+        maxlength="76"
+        data-js="question"
+      ></textarea>
+      <span class="question-error-hide" js-data="question-error-hide"
+        >to much letters</span
+      >
+      <label class="form__field" for="answer">Your answer:</label>
+      <textarea
+        name="answer"
+        id="answer"
+        required
+        minlength="2"
+        maxlength="150"
+        data-js="answer"
+      ></textarea>
 
-      <label class="form__label" for="email">Email:</label>
-      <input
-        class="form__field"
-        id="email"
-        name="email"
-        type="email"
-        required
-      />
-
-      <label class="form__label" for="password">Password:</label>
-      <input
-        class="form__field form__field--password"
-        id="password"
-        name="password"
-        type="text"
-        aria-describedby="password-hint-info"
-        required
-        minlength="8"
-        data-js="password-input"
-      />
+      <label class="form__field" for="tag">Tag:</label>
+      <input type="text" name="tag" id="tag" required data-js="tag" />
+      <button class="button" href="" data-js="submit">Submit</button>
     </form>
 
     <section class="question-card">
       <button class="bookmark">
         <img src="icons/bookmark_s.svg" />
       </button>
-      <span> what property flips the axes in flexbox </span>
-      <button class="button" href="">Show Answer</button>
+      <span data-js="question-output">
+        what property flips the axes in flexbox
+      </span>
+      <span class="question-answer-hide" data-js="answer-output">
+        what property flips the axes in flexbox
+      </span>
+      <button class="button" name="show-answer" data-js="show-answer" href="">
+        Show Answer
+      </button>
       <ul class="tags">
-        <li>#html</li>
-        <li>#flexbox</li>
-        <li>#css</li>
+        <li data-js="tag-ouput">#html</li>
       </ul>
     </section>
   </body>

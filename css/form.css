@@ -1,52 +1,15 @@
 .form {
-}
-
-.form {
   display: flex;
-  position: relative;
   flex-direction: column;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
   margin: 20px;
   border: 0px solid white;
   background-color: white;
   border-radius: 7px;
-  text-align: center;
   padding: 20px;
-}
-
-f {
-  margin: 30px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.form {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 1rem;
-  align-items: center;
-}
-
-.form__submit {
-  margin: 1rem 0 0 0;
-  background-color: aquamarine;
-  color: blue;
-  font-weight: bold;
-  text-align: center;
-  padding: 0.5rem;
-  grid-column: span 2;
-}
-
-.form__label {
-  font-weight: bold;
-}
-
-.form__field {
-  border: 1px solid aqua;
-  background-color: none;
-  padding: 0.34rem;
-  min-width: 0;
-}
-
-.form__field--hint {
-  grid-column: span 2;
+  gap: 15px;
+  input: width: 150px;
+textarea,
 }
