@@ -18,3 +18,29 @@ span {
   font-size: 20px;
   font-weight: bold;
 }
+
+.question-answer-show {
+  display: flex;
+}
+
+.question-answer-hide {
+  display: none;
+}
+
+.question-error-hide {
+  display: none;
+}
+
+.question-error-show {
+  display: flex;
+  color: red;
+}
+
+.answer-error-hide {
+  display: none;
+}
+
+.answer-error-show {
+  display: flex;
+  color: red;
+}
