@@ -18,8 +18,8 @@ if (bookmark) {
 
 //Formular
 
-const QUESTION_MAX_LENGTH = 5;
-const ANSWER_MAX_LENGTH = 5;
+const QUESTION_MAX_LENGTH = 78;
+const ANSWER_MAX_LENGTH = 150;
 
 const form = document.querySelector('[data-js="form"]');
 const questionInput = document.querySelector('[data-js="question"]');
