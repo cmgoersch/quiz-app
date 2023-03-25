@@ -1,7 +1,9 @@
+.footer {
+}
+
 .footer_links {
   display: flex;
   justify-content: space-around;
-
   background-color: white;
 }
 
