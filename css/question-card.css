@@ -17,10 +17,21 @@ span {
   margin: 30px;
   font-size: 20px;
   font-weight: bold;
+  justify-content: center;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .question-answer-show {
   display: flex;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 20px;
+  border-radius: 7px;
 }
 
 .question-answer-hide {
@@ -33,6 +44,7 @@ span {
 
 .question-error-show {
   display: flex;
+
   color: red;
 }
 

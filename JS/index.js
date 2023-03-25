@@ -67,6 +67,9 @@ form.addEventListener("submit", (event) => {
     tagOutput.textContent = "#" + filldFormData.tag;
   }
   console.log("form", filldFormData);
+
+  form.reset();
+  titleInput.focus();
 });
 
 const showAnswer = document.querySelector('[data-js="show-answer"]');

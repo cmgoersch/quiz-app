@@ -14,6 +14,7 @@
     </header>
 
     <form class="form" data-js="form" autocomplete="off">
+      <span class="headline"> Enter your new card information here</span>
       <label class="form__field" for="question">Your question:</label>
       <textarea
         name="question"
@@ -48,9 +49,11 @@
         <img src="icons/bookmark_s.svg" />
       </button>
       <span data-js="question-output"> Demo of your question </span>
-      <span class="question-answer-hide" data-js="answer-output">
-        Demo of your answer
-      </span>
+      <div class="answer-style">
+        <span class="question-answer-hide" data-js="answer-output">
+          Demo of your answer
+        </span>
+      </div>
       <button class="button" name="show-answer" data-js="show-answer" href="">
         Show Answer
       </button>
