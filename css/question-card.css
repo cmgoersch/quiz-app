@@ -1,4 +1,6 @@
-
+.question-headline {
+  padding: 30px;
+}
 
 .question-card {
   display: flex;
@@ -13,13 +15,14 @@
 }
 
 span {
-  margin: 30px;
+  margin: 1px;
   font-size: 20px;
   font-weight: bold;
   justify-content: center;
 }
 
 .headline {
+  margin: 10px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -29,29 +32,38 @@ span {
   display: flex;
   text-align: center;
   background-color: aquamarine;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   border-radius: 7px;
 }
 
 .question-answer-hide {
+  display: flex;
   display: none;
 }
 
 .question-error-hide {
-  display: none;
 }
 
 .question-error-show {
   display: flex;
-
   color: red;
 }
 
-.answer-error-hide {
-  display: none;
+.question-output {
+  padding: 30px;
 }
 
-.answer-error-show {
+.red {
   display: flex;
   color: red;
+}
+
+.answer-error-length {
+  text-align: left;
+  font-size: 10px;
+}
+
+.question-error-length {
+  font-size: 10px;
 }

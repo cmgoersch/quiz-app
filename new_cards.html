@@ -21,11 +21,11 @@
         id="question"
         required
         minlength="2"
-        maxlength="76"
+        maxlength="200"
         data-js="question"
       ></textarea>
-      <span class="question-error-hide" js-data="question-error-hide"
-        >question to much letters</span
+      <span class="question-error-length" data-js="question-error-length"
+        >You have only 150 letters!</span
       >
       <label class="form__field" for="answer">Your answer:</label>
       <textarea
@@ -33,11 +33,11 @@
         id="answer"
         required
         minlength="2"
-        maxlength="150"
+        maxlength="200"
         data-js="answer"
       ></textarea>
-      <span class="answer-error-hide" js-data="answer-error-hide"
-        >answer to much letters</span
+      <span class="answer-error-length" data-js="answer-error-length"
+        >You have only 72 letters!</span
       >
       <label class="form__field" for="tag">Tag:</label>
       <input type="text" name="tag" id="tag" required data-js="tag" />
@@ -48,9 +48,11 @@
       <button class="bookmark">
         <img src="icons/bookmark_s.svg" />
       </button>
-      <span data-js="question-output"> Demo of your question </span>
-      <div class="answer-style">
-        <span class="question-answer-hide" data-js="answer-output">
+      <span class="question-headline" data-js="question-output">
+        Demo of your question
+      </span>
+      <div>
+        <span class="answer-style question-answer-hide" data-js="answer-output">
           Demo of your answer
         </span>
       </div>
