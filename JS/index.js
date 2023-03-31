@@ -27,10 +27,10 @@ const answerInput = document.querySelector('[data-js="answer"]');
 const labelInput = document.querySelector('[data-js="tag"]');
 const submitButton = document.querySelector('[data-js="submit"]');
 
-function isInputValid(name, maxLengt, formData) {
+function isInputValid(name, maxLength, formData) {
   const errorFeld = document.querySelector(`[js-data="${name}-error-hide"]`);
 
-  if (formData[name].length <= maxLengt) {
+  if (formData[name].length <= maxLength) {
     errorFeld.className = `${name}-error-hide`;
     return true;
   } else {
