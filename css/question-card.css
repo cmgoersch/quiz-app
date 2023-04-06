@@ -60,10 +60,11 @@ span {
 }
 
 .answer-error-length {
-  text-align: left;
+  text-align: right;
   font-size: 10px;
 }
 
 .question-error-length {
+  text-align: right;
   font-size: 10px;
 }
